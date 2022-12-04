@@ -9,7 +9,7 @@ import closeIcon from "../../images/closeIcon.png";
 
 let socket;
 
-const ENDPOINT = "http://localhost:3001";
+const ENDPOINT = "http://localhost:3001/";
 
 const Chat = () => {
   const [id, setid] = useState("");
